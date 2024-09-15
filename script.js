@@ -1,12 +1,17 @@
+let bold = document.querySelectorAll("strong");
+
+
 function highlight() {
-    //Write your code here
-
-
+    for(let t of bold){
+		t.className = "highlight";
+	}
 }
 
 
 function return_normal() {
-    //Write your code here
+    for(let t of bold){
+		t.className = "";
+	}
 
     
 }
